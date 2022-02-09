@@ -1,15 +1,3 @@
-import {
-  Entity,
-  BoxShape,
-  engine,
-  Vector3,
-  Transform,
-  Component,
-  ISystem,
-  Shape,
-  OnClick,
-  Scalar
-} from 'decentraland-ecs'
 
 @Component('Movement')
 export class PingPongMovement {

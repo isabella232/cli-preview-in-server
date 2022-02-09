@@ -1,4 +1,3 @@
-import { Vector3, Color3, Texture, Material, IEntity } from 'decentraland-ecs'
 
 //  PROBABILITY
 export let MutationProb: number = 0.7

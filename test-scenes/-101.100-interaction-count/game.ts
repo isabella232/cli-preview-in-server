@@ -1,4 +1,3 @@
-import { engine, Entity, BoxShape, Transform, log, Material, Color3 } from 'decentraland-ecs'
 
 declare var dcl: any
 

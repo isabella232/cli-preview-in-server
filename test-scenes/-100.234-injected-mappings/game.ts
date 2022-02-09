@@ -1,4 +1,3 @@
-import { engine, Entity, GLTFShape, Transform } from 'decentraland-ecs'
 
 const shape = new GLTFShape('AnimatedCube.gltf')
 

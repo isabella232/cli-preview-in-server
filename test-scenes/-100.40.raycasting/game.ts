@@ -1,14 +1,3 @@
-import {
-  BoxShape,
-  Color3,
-  Component,
-  engine,
-  Entity,
-  ISystem,
-  Material,
-  PhysicsCast,
-  Transform
-} from 'decentraland-ecs'
 
 const boxShape = new BoxShape()
 

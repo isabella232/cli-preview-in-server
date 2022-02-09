@@ -1,13 +1,3 @@
-import {
-  engine,
-  PlaneShape,
-  Entity,
-  Transform,
-  BoxShape,
-  CylinderShape,
-  ConeShape,
-  SphereShape
-} from 'decentraland-ecs'
 
 const shapes = [PlaneShape, BoxShape, CylinderShape, ConeShape, SphereShape]
 

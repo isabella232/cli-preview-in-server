@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:31d0ef9856049a4ae83ed25c8411257d00c7a2c76f44bc9fbac19fad72bdd72c
-size 112
+newmtl phong1SG
+illum 4
+Kd 0.03 0.03 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 18.00

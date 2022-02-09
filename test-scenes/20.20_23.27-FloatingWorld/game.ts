@@ -1,4 +1,3 @@
-import { Entity, GLTFShape, Transform, Vector3, Quaternion, engine } from 'decentraland-ecs'
 
 const Bush_02 = new Entity()
 const gltfShape = new GLTFShape('models/Bush_02/Bush_02.glb')

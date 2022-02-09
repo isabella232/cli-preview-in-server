@@ -1,14 +1,3 @@
-import {
-  engine,
-  Material,
-  Entity,
-  Transform,
-  PlaneShape,
-  Vector3,
-  Billboard,
-  Texture,
-  BoxShape
-} from 'decentraland-ecs'
 
 const root = new Entity()
 engine.addEntity(root)

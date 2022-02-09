@@ -1,4 +1,3 @@
-import { engine, Entity, Transform, Vector3, onPlayerExpressionObservable, TextShape } from 'decentraland-ecs'
 
 //Create entity and assign shape
 const text = new Entity()

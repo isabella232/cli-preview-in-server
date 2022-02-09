@@ -1,18 +1,4 @@
-import {
-  Component,
-  ISystem,
-  engine,
-  Entity,
-  BoxShape,
-  Vector3,
-  Transform,
-  Material,
-  Color3,
-  MessageBus,
-  ReadOnlyVector3,
-  Input,
-  ActionButton
-} from 'decentraland-ecs'
+
 
 const G = 6.674e-11
 const boxShape = new BoxShape()

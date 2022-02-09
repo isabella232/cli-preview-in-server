@@ -1,4 +1,3 @@
-import { Entity, GLTFShape, engine, Vector3, Transform, AnimationState, Animator } from 'decentraland-ecs'
 
 // Scaling cube
 let scalingCubeEntity = new Entity()

@@ -1,18 +1,3 @@
-import {
-  log,
-  engine,
-  Entity,
-  BoxShape,
-  Material,
-  Color3,
-  Transform,
-  Vector3,
-  onEnterSceneObservable,
-  onLeaveSceneObservable,
-  onCameraModeChangedObservable,
-  Camera,
-  CameraMode
-} from 'decentraland-ecs'
 
 //Create entity and assign shape
 const floor = new Entity()

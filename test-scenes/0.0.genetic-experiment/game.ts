@@ -1,21 +1,4 @@
-import {
-  OnClick,
-  engine,
-  Vector3,
-  TextShape,
-  Transform,
-  GLTFShape,
-  Entity,
-  Quaternion,
-  PlaneShape,
-  Color3,
-  UICanvas,
-  UIContainerRect,
-  UIText,
-  Color4,
-  log,
-  UIImage
-} from 'decentraland-ecs'
+
 
 import { Creature, chipaPool, creatures, BuildBody } from './Creature'
 import { Environment, environments } from './Environment'

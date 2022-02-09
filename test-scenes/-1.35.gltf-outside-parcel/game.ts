@@ -1,4 +1,3 @@
-import { Entity, GLTFShape, engine, Vector3, Transform, OBJShape } from 'decentraland-ecs'
 
 function makeGLTF(src: string, position: Vector3, scale: Vector3) {
   const ent = new Entity()

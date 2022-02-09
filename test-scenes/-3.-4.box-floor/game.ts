@@ -1,4 +1,3 @@
-import { Entity, Transform, engine, BoxShape } from 'decentraland-ecs'
 
 const floor = new BoxShape()
 

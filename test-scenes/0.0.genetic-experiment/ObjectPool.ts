@@ -1,4 +1,3 @@
-import { Entity } from 'decentraland-ecs'
 
 export class Pool {
   pool: Entity[] = []

@@ -1,4 +1,3 @@
-import { Entity, engine, Vector3, Transform, BoxShape, Material, Color3, Attachable } from 'decentraland-ecs'
 
 // This entity will rotate with the camera, when in first person mode
 const followTheCamera = new Entity()

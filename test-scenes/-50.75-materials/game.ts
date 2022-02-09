@@ -1,4 +1,3 @@
-import { Entity, GLTFShape, Transform, Vector3, Quaternion, engine } from 'decentraland-ecs'
 
 let models = new Entity()
 models.addComponent(new GLTFShape('models/MaterialsScene.glb'))

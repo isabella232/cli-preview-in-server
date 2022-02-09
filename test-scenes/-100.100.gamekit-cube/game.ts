@@ -1,15 +1,3 @@
-import {
-  Transform,
-  engine,
-  Entity,
-  BoxShape,
-  ISystem,
-  log,
-  OnPointerDown,
-  Material,
-  Color3,
-  MessageBus
-} from 'decentraland-ecs'
 
 export class RotatorSystem implements ISystem {
   group = engine.getComponentGroup(Transform)

@@ -1,20 +1,3 @@
-import {
-  Component,
-  OnClick,
-  ISystem,
-  engine,
-  Vector3,
-  TextShape,
-  IEntity,
-  Transform,
-  GLTFShape,
-  Entity,
-  Quaternion,
-  PlaneShape,
-  Color3,
-  log,
-  Scalar
-} from 'decentraland-ecs'
 
 import { Genome, GeneType } from './Genome'
 import { ProgressBar } from './ProgressBar'

@@ -1,22 +1,4 @@
-import {
-  Component,
-  AudioSource,
-  AudioClip,
-  Entity,
-  engine,
-  Transform,
-  Vector3,
-  GLTFShape,
-  log,
-  OnPointerDown,
-  Input,
-  PlaneShape,
-  Billboard,
-  Material,
-  Color3,
-  Gizmos,
-  ActionButton
-} from 'decentraland-ecs'
+
 
 const g = new Gizmos()
 

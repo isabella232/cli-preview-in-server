@@ -1,4 +1,3 @@
-import { UICanvas, UIInputText, UIScrollRect, Color4, UIText, UIContainerRect, OnTextSubmit } from 'decentraland-ecs'
 
 const ui = new UICanvas()
 

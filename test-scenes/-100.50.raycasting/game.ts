@@ -1,16 +1,3 @@
-import {
-  BoxShape,
-  Color3,
-  engine,
-  Entity,
-  ISystem,
-  Material,
-  Transform,
-  PhysicsCast,
-  Ray,
-  Vector3,
-  log,
-} from 'decentraland-ecs'
 
 //-------------------------------------------------------
 // Configuration constants

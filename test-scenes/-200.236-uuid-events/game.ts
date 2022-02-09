@@ -1,4 +1,3 @@
-import { engine, Entity, BoxShape, Vector3, Transform, OnPointerDown, log } from 'decentraland-ecs'
 
 log('start')
 

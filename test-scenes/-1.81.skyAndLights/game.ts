@@ -1,16 +1,3 @@
-import {
-  Vector3,
-  Entity,
-  Transform,
-  engine,
-  BoxShape,
-  SphereShape,
-  Quaternion,
-  Material,
-  Color3,
-  CylinderShape,
-  PlaneShape
-} from 'decentraland-ecs'
 
 function makeEntity(shape: any, position: Vector3, scale?: Vector3) {
   const ent = new Entity()

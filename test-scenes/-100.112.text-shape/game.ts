@@ -1,4 +1,3 @@
-import { engine, Entity, Transform, Vector3, TextShape } from 'decentraland-ecs'
 
 const root = new Entity()
 engine.addEntity(root)

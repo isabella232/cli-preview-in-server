@@ -1,19 +1,3 @@
-import {
-  engine,
-  Input,
-  Entity,
-  Transform,
-  ISystem,
-  BasicMaterial,
-  PlaneShape,
-  Component,
-  Vector3,
-  ActionButton,
-  OnPointerDown,
-  Billboard,
-  log,
-  Texture
-} from 'decentraland-ecs'
 
 declare var dcl: any
 

@@ -1,15 +1,3 @@
-import {
-  Entity,
-  engine,
-  Vector3,
-  Transform,
-  BoxShape,
-  AvatarModifierArea,
-  AvatarModifiers,
-  TextShape,
-  Billboard,
-  Quaternion
-} from 'decentraland-ecs'
 
 const SIZE = 4
 

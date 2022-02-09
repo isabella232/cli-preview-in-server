@@ -1,4 +1,3 @@
-import { UICanvas, UIText, Color4 } from 'decentraland-ecs'
 
 const ui = new UICanvas()
 

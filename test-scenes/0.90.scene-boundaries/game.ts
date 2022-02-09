@@ -1,19 +1,3 @@
-import {
-  Entity,
-  BoxShape,
-  engine,
-  Vector3,
-  Transform,
-  Component,
-  ISystem,
-  Shape,
-  GLTFShape,
-  Animator,
-  AnimationState,
-  OnClick,
-  NFTShape,
-  Scalar
-} from 'decentraland-ecs'
 
 @Component('Movement')
 export class PathMovement {

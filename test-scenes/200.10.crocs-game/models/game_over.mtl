@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6168803a5878a553d11c25223c0c7491d8079f967c40f3d7efdf4d344d9169ec
-size 238
+# Blender MTL File: 'croco.blend'
+# Material Count: 1
+
+newmtl Material.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.022601
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

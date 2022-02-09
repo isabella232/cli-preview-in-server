@@ -1,4 +1,3 @@
-import { engine, Entity, Camera, ConeShape, Transform, Vector3, Quaternion } from 'decentraland-ecs'
 
 const camera = Camera.instance
 

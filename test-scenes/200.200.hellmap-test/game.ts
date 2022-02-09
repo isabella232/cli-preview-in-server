@@ -1,4 +1,3 @@
-import { Entity, GLTFShape, engine, Vector3, Transform, Quaternion } from 'decentraland-ecs'
 
 let entity = new Entity()
 

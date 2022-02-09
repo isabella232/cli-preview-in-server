@@ -1,4 +1,3 @@
-import { engine, Entity, Transform, Vector3, BoxShape, Material, Color3 } from 'decentraland-ecs'
 
 const box = new BoxShape()
 const redMaterial = new Material()

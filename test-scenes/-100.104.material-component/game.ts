@@ -1,14 +1,3 @@
-import {
-  engine,
-  Material,
-  BoxShape,
-  Entity,
-  Transform,
-  Color3,
-  OnPointerDown,
-  getComponentId,
-  log
-} from 'decentraland-ecs'
 
 const box = new BoxShape()
 
@@ -47,7 +36,6 @@ function spawn(x: number, y: number, z: number) {
   return ent
 }
 
-declare var dcl: any
 const ent = spawn(5, 1, 5)
 
 dcl.onEvent((evt: any) => {

@@ -1,4 +1,4 @@
-import { Component } from 'decentraland-ecs'
+
 import { MutationProb, MutationMaxSpreads } from './Params'
 
 export enum GeneType {

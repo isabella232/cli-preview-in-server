@@ -1,4 +1,3 @@
-import { log, engine, Entity, Transform, Vector3, onIdleStateChangedObservable, TextShape } from 'decentraland-ecs'
 
 // AFK Mode Changed
 //Create entity and assign shape

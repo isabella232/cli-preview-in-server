@@ -1,26 +1,3 @@
-import {
-  Vector3,
-  Entity,
-  Transform,
-  BoxShape,
-  engine,
-  OnClick,
-  OnPointerDown,
-  OnPointerUp,
-  Material,
-  Color3,
-  Billboard,
-  TextShape,
-  Camera,
-  AnimationState,
-  GLTFShape,
-  Animator,
-  Input,
-  log,
-  SphereShape,
-  IEntity,
-  ActionButton
-} from 'decentraland-ecs'
 
 let greenMaterial = new Material()
 greenMaterial.albedoColor = Color3.Green()

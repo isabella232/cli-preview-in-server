@@ -1,4 +1,3 @@
-import { Entity, engine, Transform, GLTFShape, Vector3, Quaternion } from 'decentraland-ecs'
 
 const entity = new Entity()
 entity.addComponentOrReplace(new GLTFShape('models/irregular.glb'))

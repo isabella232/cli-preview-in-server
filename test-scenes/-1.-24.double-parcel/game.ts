@@ -1,15 +1,3 @@
-import {
-  engine,
-  BoxShape,
-  PlaneShape,
-  CylinderShape,
-  Entity,
-  Vector3,
-  Transform,
-  Material,
-  Color3,
-  SphereShape
-} from 'decentraland-ecs'
 
 const entity = new Entity()
 const mat1 = new Material()

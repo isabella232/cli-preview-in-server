@@ -1,14 +1,3 @@
-import {
-  Entity,
-  GLTFShape,
-  Transform,
-  engine,
-  Vector3,
-  OnPointerDown,
-  AnimationState,
-  Animator,
-  log
-} from 'decentraland-ecs'
 
 onerror = function () {
   debugger

@@ -1,16 +1,3 @@
-import {
-  GLTFShape,
-  Vector3,
-  Entity,
-  Transform,
-  BoxShape,
-  ConeShape,
-  CylinderShape,
-  engine,
-  PlaneShape,
-  SphereShape,
-  CircleShape
-} from 'decentraland-ecs'
 
 function makeEntity(shape: any, position: Vector3, visible: boolean) {
   const ent = new Entity()

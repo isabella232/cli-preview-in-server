@@ -1,4 +1,3 @@
-import { Component, ISystem, engine } from 'decentraland-ecs'
 
 @Component('buttonData')
 export class ButtonData {

@@ -1,4 +1,4 @@
-import { Vector3, Transform, Entity, PlaneShape, Component, IEntity, Scalar } from 'decentraland-ecs'
+
 import { greenMaterial } from './Params'
 
 let planeShape = new PlaneShape()

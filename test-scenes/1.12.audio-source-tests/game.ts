@@ -1,18 +1,4 @@
-/* Test description:
- * One box to play shots when we click it and another box to toggle music that changes the volume constantly
- */
 
-import {
-  engine,
-  Entity,
-  Transform,
-  Vector3,
-  AudioSource,
-  AudioClip,
-  BoxShape,
-  OnClick,
-  ISystem
-} from 'decentraland-ecs'
 
 // Sounds
 const shotClip = new AudioClip('shot.ogg')

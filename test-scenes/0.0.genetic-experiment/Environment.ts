@@ -1,4 +1,3 @@
-import { Component, engine, Vector3 } from 'decentraland-ecs'
 
 import { Creature } from './Creature'
 

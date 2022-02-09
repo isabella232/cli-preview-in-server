@@ -1,5 +1,3 @@
-import { Entity, engine, BoxShape, Gizmos, Transform, OnPointerDown, log, OnGizmoEvent } from 'decentraland-ecs'
-
 const shape = new BoxShape()
 shape.visible = true
 

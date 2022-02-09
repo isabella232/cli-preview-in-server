@@ -1,4 +1,3 @@
-import { engine, PlaneShape, Entity, Transform, BasicMaterial, Texture, Vector3, BoxShape } from 'decentraland-ecs'
 
 const generateDiceUV = (faces: number, offset: number = 0): number[] => {
   const sizeDiv = 1.0 / 6.0

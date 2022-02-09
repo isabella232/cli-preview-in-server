@@ -1,5 +1,3 @@
-import { UICanvas, UIContainerRect, UIImage, Color4, Texture } from 'decentraland-ecs'
-
 const ui = new UICanvas()
 
 const container = new UIContainerRect(ui)

@@ -1,4 +1,3 @@
-import { IEntity, ISystem, Transform, engine, Entity, BoxShape, EventManager, EventConstructor } from 'decentraland-ecs'
 
 const boxShape = new BoxShape()
 const events = new EventManager()

@@ -1,4 +1,3 @@
-import { Vector3, Entity, Transform, BoxShape, engine, SphereShape, Material, Color3 } from 'decentraland-ecs'
 
 const materialA = new Material()
 const materialB = new Material()

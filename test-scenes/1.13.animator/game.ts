@@ -1,15 +1,3 @@
-import {
-  engine,
-  BoxShape,
-  Entity,
-  Animator,
-  ActionButton,
-  OnPointerDown,
-  Transform,
-  Vector3,
-  GLTFShape,
-  AnimationState
-} from 'decentraland-ecs'
 
 const createButton = (pos: number, hoverText: string, onClick: Function) => {
   // Create box shape

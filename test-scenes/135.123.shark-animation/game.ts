@@ -1,5 +1,4 @@
-import { Entity, GLTFShape, engine, Vector3, Transform, AnimationState, Animator, ActionButton } from 'decentraland-ecs'
-import { OnPointerDown, OnPointerUp } from 'decentraland-ecs'
+
 
 // Add Shark
 let shark = new Entity()

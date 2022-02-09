@@ -1,4 +1,3 @@
-import { engine, Component, ISystem, IEntity, Vector3, Transform, Entity, log, Camera } from 'decentraland-ecs'
 
 import { environments, Environment } from './Environment'
 import { Creature } from './Creature'

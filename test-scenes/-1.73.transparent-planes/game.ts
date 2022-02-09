@@ -1,4 +1,3 @@
-import { PlaneShape, Material, Entity, engine, Transform, Billboard, Texture, TransparencyMode } from 'decentraland-ecs'
 
 const tex = new Texture('img #7 @ $1.png', { hasAlpha: true })
 

@@ -1,4 +1,3 @@
-import { Entity, engine, Transform, Vector3, TextShape, Font, Fonts } from 'decentraland-ecs'
 
 const e1 = new Entity()
 const e2 = new Entity()

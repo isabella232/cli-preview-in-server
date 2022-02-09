@@ -1,4 +1,3 @@
-import { Entity, engine, Transform, Vector3, OnClick, BoxShape, AudioStream } from 'decentraland-ecs'
 
 const cube = new Entity()
 cube.addComponent(new BoxShape())

@@ -1,4 +1,3 @@
-import { log, engine, Entity, Transform, Vector3, onSceneReadyObservable, TextShape } from 'decentraland-ecs'
 
 //Create entity and assign shape
 const text = new Entity()

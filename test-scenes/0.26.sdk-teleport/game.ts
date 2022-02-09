@@ -1,4 +1,3 @@
-import { Entity, engine, Transform, Vector3, BoxShape, OnPointerDown, teleportTo } from 'decentraland-ecs'
 
 const e = new Entity()
 e.addComponent(new BoxShape())

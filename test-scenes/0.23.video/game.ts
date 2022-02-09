@@ -1,17 +1,3 @@
-import {
-  Entity,
-  engine,
-  Transform,
-  Vector3,
-  PlaneShape,
-  Quaternion,
-  VideoTexture,
-  VideoClip,
-  BasicMaterial,
-  OnPointerDown,
-  BoxShape,
-  ActionButton
-} from 'decentraland-ecs'
 
 /*
 Plane with video live streaming
