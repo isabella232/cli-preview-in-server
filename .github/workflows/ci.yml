@@ -27,8 +27,9 @@ jobs:
         with:
           image: cli-preview-in-server
           tags: ${{ github.sha }} next
+          workdir: ./test-scenes/
           dockerfiles: |
-            ./test-scenes/Dockerfile
+            ./Dockerfile
       # Podman Login action (https://github.com/redhat-actions/podman-login) also be used to log in,
       # in which case 'username' and 'password' can be omitted.
       - name: Push To quay.io
