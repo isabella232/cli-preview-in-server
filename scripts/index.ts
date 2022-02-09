@@ -134,7 +134,9 @@ function runBuild(workingDir: string): Promise<void> {
     child.on('close', (code) => {
       if (code !== 0) {
         reject(
-          new Error(`Build exited with code ${code}. \n Standard output ${stdOut} \n Error output ${stdErr}`)
+          new Error(`Build exited with code ${code}. \n 
+            > Standard output: \n ${stdOut} \n 
+            > Error output: \n ${stdErr}`)
         )
       }
       resolve()
