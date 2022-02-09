@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  master:
+  build-and-push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,7 +27,6 @@ jobs:
         with:
           image: cli-preview-in-server
           tags: ${{ github.sha }} next
-          workdir: ./test-scenes/
           dockerfiles: |
             ./Dockerfile
       # Podman Login action (https://github.com/redhat-actions/podman-login) also be used to log in,
