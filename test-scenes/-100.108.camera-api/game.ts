@@ -1,9 +1,8 @@
 
-declare var dcl: any
 
 const camera = Camera.instance
 
-dcl.camera = camera
+// dcl.camera = camera
 
 const entitiesWithTransform = engine.getComponentGroup(Transform)
 

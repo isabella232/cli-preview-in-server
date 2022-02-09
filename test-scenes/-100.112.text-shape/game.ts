@@ -7,7 +7,10 @@ function createText(position: Vector3, text: string, params: any) {
   const ent = new Entity()
   const shape = new TextShape(text)
   ent.addComponentOrReplace(shape)
-  Object['assign'](shape, params)
+  
+  // TODO: see this line
+  // Object['assign'](shape, params)
+
   ent.addComponentOrReplace(
     new Transform({
       position

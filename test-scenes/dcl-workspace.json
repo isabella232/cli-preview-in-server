@@ -1,0 +1,278 @@
+{
+  "folders": [
+    {
+      "path": "-1.-24.double-parcel"
+    },
+    {
+      "path": "-1.-27-aframe-primitives"
+    },
+    {
+      "path": "-1.-30.L-shaped-estate"
+    },
+    {
+      "path": "-1.-40-changed-material"
+    },
+    {
+      "path": "-1.-50.basic-interactions"
+    },
+    {
+      "path": "-1.27.skeletal-animation"
+    },
+    {
+      "path": "-1.30.gltf2"
+    },
+    {
+      "path": "-1.35.gltf-outside-parcel"
+    },
+    {
+      "path": "-1.36.gltf-limits-exceeded"
+    },
+    {
+      "path": "-1.49.interactions"
+    },
+    {
+      "path": "-1.70.billboard"
+    },
+    {
+      "path": "-1.73.transparent-planes"
+    },
+    {
+      "path": "-1.81.skyAndLights"
+    },
+    {
+      "path": "-1.82.referenceCubes"
+    },
+    {
+      "path": "-1.83.eulerAngles"
+    },
+    {
+      "path": "-10.30.teatro"
+    },
+    {
+      "path": "-100.100.gamekit-cube"
+    },
+    {
+      "path": "-100.101.gamekit-onclick"
+    },
+    {
+      "path": "-100.102.gamekit-spawner"
+    },
+    {
+      "path": "-100.103.diposable-components"
+    },
+    {
+      "path": "-100.104.material-component"
+    },
+    {
+      "path": "-100.105.basic-material-component"
+    },
+    {
+      "path": "-100.106.simple-shapes"
+    },
+    {
+      "path": "-100.107.transform-component"
+    },
+    {
+      "path": "-100.108.camera-api"
+    },
+    {
+      "path": "-100.109.input-api"
+    },
+    {
+      "path": "-100.110.lookAt"
+    },
+    {
+      "path": "-100.111.SkeletalAnimation"
+    },
+    {
+      "path": "-100.112.text-shape"
+    },
+    {
+      "path": "-100.113.ecs-parents"
+    },
+    {
+      "path": "-100.114.alpha-textures"
+    },
+    {
+      "path": "-100.134-injected-mappings"
+    },
+    {
+      "path": "-100.136-uuid-events"
+    },
+    {
+      "path": "-100.40.raycasting"
+    },
+    {
+      "path": "-100.50.raycasting"
+    },
+    {
+      "path": "-100.80.solar-system-comms"
+    },
+    {
+      "path": "-101.100-interaction-count"
+    },
+    {
+      "path": "-102.100.gamekit-simple-game"
+    },
+    {
+      "path": "-102.102.gizmos"
+    },
+    {
+      "path": "-102.103.positional-sound"
+    },
+    {
+      "path": "-103.0.visbility"
+    },
+    {
+      "path": "-103.1.animation_reset"
+    },
+    {
+      "path": "-103.102.nft"
+    },
+    {
+      "path": "-103.103.nftframes"
+    },
+    {
+      "path": "-3.-3.glb-floor"
+    },
+    {
+      "path": "-3.-4.box-floor"
+    },
+    {
+      "path": "-50.75-materials"
+    },
+    {
+      "path": "0.0.genetic-experiment"
+    },
+    {
+      "path": "0.10.jumping"
+    },
+    {
+      "path": "0.100.fractions"
+    },
+    {
+      "path": "0.102.attachables"
+    },
+    {
+      "path": "0.103.avatar-modifiers"
+    },
+    {
+      "path": "0.11.subscribeToEnterLeaveScene1"
+    },
+    {
+      "path": "0.12.subscribeToEnterLeaveScene2"
+    },
+    {
+      "path": "0.14.idleStateChanged"
+    },
+    {
+      "path": "0.15.sceneStarted"
+    },
+    {
+      "path": "0.20.objects-blocking-click-for-objects-behind-them"
+    },
+    {
+      "path": "0.21.audio-streaming"
+    },
+    {
+      "path": "0.23.video"
+    },
+    {
+      "path": "0.24.fonts"
+    },
+    {
+      "path": "0.25.openExternalUrl"
+    },
+    {
+      "path": "0.26.sdk-teleport"
+    },
+    {
+      "path": "0.5.moving-platforms"
+    },
+    {
+      "path": "0.90.scene-boundaries"
+    },
+    {
+      "path": "1.11.uv-tests"
+    },
+    {
+      "path": "1.12.audio-source-tests"
+    },
+    {
+      "path": "1.13.animator"
+    },
+    {
+      "path": "1.14.playerEvents"
+    },
+    {
+      "path": "10.10.orientation"
+    },
+    {
+      "path": "11.11.christmas"
+    },
+    {
+      "path": "120.0.benchmark"
+    },
+    {
+      "path": "120.100.huge-city"
+    },
+    {
+      "path": "120.120.200k-polygons"
+    },
+    {
+      "path": "135.123.shark-animation"
+    },
+    {
+      "path": "136.123.non-skeletal-animations"
+    },
+    {
+      "path": "2.90.irregular-mesh-boundaries"
+    },
+    {
+      "path": "20.20_23.27-FloatingWorld"
+    },
+    {
+      "path": "3.108.triangle-exceeded-gltf"
+    },
+    {
+      "path": "3.110.triangle-exceeded-obj"
+    },
+    {
+      "path": "3.118.forest-gltf"
+    },
+    {
+      "path": "3.120.forest-obj"
+    },
+    {
+      "path": "50.10.crocs-game"
+    },
+    {
+      "path": "50.50.hellmap-test"
+    },
+    {
+      "path": "50.90.inclusive-limits"
+    },
+    {
+      "path": "66.66-screen-space-ui"
+    },
+    {
+      "path": "66.67-ui-text"
+    },
+    {
+      "path": "67.66-ui-container-stack"
+    },
+    {
+      "path": "67.67-ui-image"
+    },
+    {
+      "path": "68.68-ui-text-input"
+    },
+    {
+      "path": "68.69-ui-onclick"
+    },
+    {
+      "path": "69.68-ui-slider"
+    }
+  ],
+  "settings": {}
+}

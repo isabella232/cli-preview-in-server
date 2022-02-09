@@ -1,7 +1,4 @@
 
-onerror = function () {
-  debugger
-}
 
 // First way to
 const shark = new Entity()
@@ -47,8 +44,6 @@ shark.addComponentOrReplace(
 
 engine.addEntity(shark)
 engine.addEntity(shark2)
-
-declare var dcl: any
 
 dcl.onEvent(function (event: any) {
   log('event', event)

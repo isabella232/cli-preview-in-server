@@ -1,5 +1,4 @@
 
-declare var dcl: any
 
 let counter = 0
 let entity: any = null

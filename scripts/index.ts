@@ -1,13 +1,4 @@
 
-// {
-//   "folders": [
-//     {
-//       "path": "test-scenes/-1.49.interactions"
-//     }
-//   ],
-//   "settings": {}
-// }
-
 import * as path from 'path'
 import * as fs from 'fs-extra'
 import { sync as globSync } from 'glob'
@@ -16,6 +7,7 @@ import { spawn } from 'child_process'
 const SCENE_FACTORY_FOLDER = 'scene'
 const TEST_SCENE_FOLDER = 'test-scenes'
 const TSCONFIG_EXAMPLE_PATH = "tsconfig.example.json"
+const workspaceJsonFileName = 'dcl-workspace.json'
 
 function getRemovableFilesFromSceneFolder() {
   const baseFiles =
@@ -46,13 +38,15 @@ function removeFilesFromSceneFolder() {
   }
 }
 
-function getAllTestScene() {
+function getAllTestScene(absolute?: boolean) {
+  const currentWorkingDir = path.resolve(process.cwd(), TEST_SCENE_FOLDER)
   return globSync('*', {
-    cwd: path.resolve(process.cwd(), TEST_SCENE_FOLDER),
+    cwd: currentWorkingDir,
     dot: true,
-    absolute: true
+    absolute: absolute || false
   })
-    .filter(sceneFolderPath => {
+    .filter(item => {
+      const sceneFolderPath = absolute ? item : path.resolve(currentWorkingDir, item)
       if (!fs.lstatSync(sceneFolderPath).isDirectory())
         return false
       const gameTsPath = path.resolve(sceneFolderPath, 'game.ts')
@@ -150,7 +144,7 @@ async function main() {
 
   await installDependencies(path.resolve(SCENE_FACTORY_FOLDER), false)
 
-  const allTestScenes = getAllTestScene()
+  const allTestScenes = getAllTestScene(true)
   for (const sceneFolder of allTestScenes) {
     if (!fs.existsSync(path.resolve(sceneFolder, 'game.js'))) {
       console.log(`Building scene '${sceneFolder.replace(path.resolve(process.cwd(), TEST_SCENE_FOLDER), '')}'`)
@@ -181,6 +175,20 @@ async function main() {
       removeFilesFromSceneFolder()
     }
   }
+
+  const testSceneFolderPath = path.resolve(process.cwd(), TEST_SCENE_FOLDER)
+  const packageJsonPath = path.resolve(SCENE_FACTORY_FOLDER, "package.json")
+  const workspaceObject =
+  {
+    "folders": getAllTestScene(false).map(sceneFolder => ({
+      path: sceneFolder
+    })),
+    "settings": {}
+  }
+  fs.writeJSONSync(path.resolve(testSceneFolderPath, workspaceJsonFileName), workspaceObject, { spaces: 2 })
+  fs.copyFileSync(packageJsonPath, path.resolve(testSceneFolderPath, "package.json"))
+
+  await installDependencies(path.resolve(testSceneFolderPath), false)
 
 }
 
